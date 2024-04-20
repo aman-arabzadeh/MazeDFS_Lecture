@@ -26,3 +26,9 @@ pip install matplotlib numpy
 ## Usage
 # To start the application, run the `MazeDFS.py` script from the terminal. You will be prompted to enter the dimensions for the maze, and the program will display the generated maze and the solution path.
 python MazeDFS.py
+
+## License
+
+MazeDFS is made available under the MIT License. For more details, see the [LICENSE](LICENSE) file in the repository.
+
+
