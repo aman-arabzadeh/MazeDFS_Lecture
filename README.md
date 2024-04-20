@@ -14,7 +14,7 @@ Additionally, the program requires `matplotlib` and `numpy` libraries for genera
 ![Generated Maze](https://github.com/KORAY-AMAN-ASLAN/MazeDFS_Lecture/blob/main/image%20(1).png)
 
 ### Maze Solution Path
-![Maze Solution]([path/to/your/solution_image.png](https://github.com/KORAY-AMAN-ASLAN/MazeDFS_Lecture/blob/main/image.png))
+![Maze Solution](https://github.com/KORAY-AMAN-ASLAN/MazeDFS_Lecture/blob/main/image.png)
 
 ```bash
 # Clone the repository
