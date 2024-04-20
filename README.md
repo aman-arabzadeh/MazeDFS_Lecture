@@ -17,6 +17,11 @@ Here's an example of a generated maze and its solution path, created by the Maze
 ### Maze Solution Path
 ![Maze Solution](https://github.com/KORAY-AMAN-ASLAN/MazeDFS_Lecture/blob/main/image.png)
 
+## License
+
+MazeDFS is made available under the MIT License. For more details, see the [LICENSE](LICENSE) file in the repository.
+
+
 ```bash
 # Clone the repository
 git clone https://github.com/KORAY-AMAN-ASLAN/MazeDFS_Lecture.git
@@ -27,8 +32,5 @@ pip install matplotlib numpy
 # To start the application, run the `MazeDFS.py` script from the terminal. You will be prompted to enter the dimensions for the maze, and the program will display the generated maze and the solution path.
 python MazeDFS.py
 
-## License
-
-MazeDFS is made available under the MIT License. For more details, see the [LICENSE](LICENSE) file in the repository.
 
 
