@@ -29,6 +29,7 @@ python MazeDFS.py
 
 ## License
 
-MazeDFS is made available under the MIT License. For more details, see the [LICENSE](LICENSE) file in the repository.
+MazeDFS is made available under the MIT License. For more details, see the [LICENSE](https://github.com/KORAY-AMAN-ASLAN/MazeDFS_Lecture/blob/main/LICENSE) file in the repository.
+
 
 
