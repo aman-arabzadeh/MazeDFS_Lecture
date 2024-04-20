@@ -6,20 +6,20 @@ MazeDFS is a Python application that generates and solves mazes using a depth-fi
 ## Installation
 To run MazeDFS, you will need Python installed on your system. You can download Python from [python.org](https://www.python.org/downloads/). Additionally, the program requires \`matplotlib\` and \`numpy\` libraries for generating visualizations and managing arrays, respectively.
 
-\`\`\`bash
+```bash
 # Clone the repository
 git clone https://github.com/KORAY-AMAN-ASLAN/MazeDFS_Lecture.git
 
 # Install required Python libraries
 pip install matplotlib numpy
-\`\`\`
+```
 
 ## Usage
 To start the application, run the \`MazeDFS.py\` script from the terminal. You will be prompted to enter the dimensions for the maze, and the program will display the generated maze and the solution path.
 
-\`\`\`bash
+```bash
 python MazeDFS.py
-\`\`\`
+```
 
 ## Maze Visualization
 Here's an example of a generated maze and its solution path, created by the MazeDFS application:
