@@ -3,13 +3,6 @@ import numpy as np
 import random 
 
 def create_maze(dim):
-    """
-    Skapar en labyrint genom att använda en depth-first search (DFS) algoritm.
-    Args:
-        dim (int): Dimensionen på labyrinten som anger hur stor den ska vara.
-    Returns:
-        np.array: En 2D-array som representerar labyrinten där 1:or är väggar och 0:or är öppna vägar.
-    """
     maze = np.ones((dim * 2 + 1, dim * 2 + 1))
 
     x, y = (0, 0)
