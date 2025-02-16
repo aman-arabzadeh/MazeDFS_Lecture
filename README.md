@@ -6,7 +6,11 @@ To run MazeDFS, you will need Python installed on your system. You can download 
 
 ```bash
 # Clone the repository
+git clone # Clone the repository
 git clone https://github.com/KORAY-AMAN-ASLAN/MazeDFS_Lecture.git
+
+# Install required Python libraries
+pip install matplotlib numpy.git
 
 # Install required Python libraries
 pip install matplotlib numpy
