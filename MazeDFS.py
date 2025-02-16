@@ -48,19 +48,13 @@ def find_path_dfs(maze):
         directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
         for dx, dy in directions:
             next_node = (node[0] + dx, node[1] + dy)  # Beräkna nästa position
-            # Kontrollera att nästa position är inom labyrinten och inte är en vägg
             if 0 <= next_node[0] < maze.shape[0] and 0 <= next_node[1] < maze.shape[1] and maze[next_node] == 0 and next_node not in visited:
                 stack.append((next_node, path + [next_node]))  # Lägg till nästa position och uppdaterad path i stacken
 
 def draw_maze(maze, path=None):
-    """
-    Visualiserar labyrinten och den funna vägen om sådan finns.
-    Args:
-        maze (np.array): Labyrinten som en 2D-array.
-        path (list of tuples, optional): Vägen som hittats genom labyrinten, om någon.
-    """
+
     fig, ax = plt.subplots(figsize=(10, 10))  
-    ax.imshow(maze, cmap=plt.cm.binary, interpolation='nearest')  # Visa labyrinten som en bild
+    ax.imshow(maze, cmap=plt.cm.binary, interpolation='nearest')  
 
     if path:
         x_coords = [x[1] for x in path]  # X-koordinater för path
