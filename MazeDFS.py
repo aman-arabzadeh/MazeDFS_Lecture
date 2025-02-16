@@ -28,13 +28,7 @@ def create_maze(dim):
     return maze
 
 def find_path_dfs(maze):
-    """
-    Använder depth-first search (DFS) för att hitta en väg från start till mål i labyrinten.
-    Args:
-        maze (np.array): Labyrinten som en 2D-array där 1:or är väggar och 0:or är vägar.
-    Returns:
-        list of tuples: En lista av koordinater (tupler) som representerar vägen från start till mål.
-    """
+
     start = (1, 1)
     end = (maze.shape[0] - 2, maze.shape[1] - 2)
     stack = [(start, [start])]  
